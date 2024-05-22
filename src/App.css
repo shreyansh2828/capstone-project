@@ -14,14 +14,16 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  background-color: #7d2e0d;
+  /* height: 8vh; */
+  /* display: flex; */
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 0.5vmin);
   color: white;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .App-link {
@@ -35,4 +37,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Add this rule to style the Link components */
+a[href*=""], a[href*=""]:visited, a[href*=""]:hover, a[href*=""]:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a{
+  font-weight: bold;
 }
